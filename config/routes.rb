@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   #resources will automatically create few default routes for you
   resources :friends
   #get 'home/index'
